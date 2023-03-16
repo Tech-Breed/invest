@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>invest</title>
+    <link rel="stylesheet"  href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-icons-1.9.1/bootstrap-icons.css" >
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+    $(window).on('scroll',function(){
+        if($(window).scrollTop()){
+            $('nav').addClass('black');
+        }
+        else{
+            $('nav').removeClass('black');
+        }
+    })
+/*menu button onclick function*/         $(document).ready(function(){
+            $('.menu h4').click(function(){
+                $("nav ul").toggleClass("active")
+        })
+        })
+    </script>
+</head>
+<body>
+
+    <!-- header -->
+    <div class="responsive-bar">
+        <div class="logo">
+            <img src="images/img.jpeg" alt="logo"/>
+            </div>
+            <div class="menu">
+            <h4><span class="bi bi-list"></span></h4>
+            </div>
+        </div>
+    <nav>
+            <div class="logo">
+            <img src="images/img.jpeg" alt="logo"/>
+            </div>
+
+         <ul>
+             <li><a href="#about us
+              ">About us</a></li>
+             <li><a href="#services">Services</a></li>
+             <li><a href="#contact us">Contact Us</a></li>
+             <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+   <!-- first div centered -->
+ <div class="bg">
+  <div class="typewriter">
+    <div class="centered">
+        <h1>
+            We are Awesome!
+        </h1>
+    </div>
+   </div>
+  </div>
+
+  <!-- first div centerd -->
+  <div  class="centered1">
+    <h6>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ratione omnis eligendi corporis excepturi odit possimus? Inventore odio mollitia hic temporibus nihil aspernatur excepturi soluta, expedita, iste ipsam ratione nam!
+    </h6>
+  </div>
+<!-- secound div centered -->
+<div class="container">
+   <div class="centered2">
+    <a href="form.html">
+        <button class="btn-98">
+            Get started
+        </button>
+
+    </a>
+   </div>
+</div>
+
+<!-- footer -->
+
+  <footer>
+    <div class="row primary"> 
+        <div class="column about">
+            <h2>welcome aboard</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi fugit quaerat, iste nobis accusamus voluptates aliquam sunt molestias commodi, praesentium perferendis explicabo. Quis eius minima eaque porro dignissimos placeat pariatur?
+            </p>
+
+            <div class="social">
+                <a href="#"><span class="bi bi-facebook"></span></a>
+                <a href="#"><span style="color: green;" class="bi bi-whatsapp"></span></a>
+                <a href="#"><span style="color: red;" class="bi bi-youtube"></span></a>
+                <a href="#"><span style="color: pink;" class="bi bi-instagram"></span></a>
+            </div>
+        </div>
+
+        <div >
+            <h2>some links</h2>
+
+            <ul class="ul1">
+                <li class="li1">
+                    <a href="">F.A.Q</a>
+                </li>
+                <li>
+                    <a href="">Cookies and policy</a>
+                </li>
+                <li>
+                    <a href="">Terms of Services</a>
+                </li>
+                <li>
+                    <a href="">Support</a>
+                </li>
+            </ul>
+        </div>
+
+        
+    
+
+        <div class="column subscribe">
+            <h3>NewsLetter</h3>
+            <div>
+                <input type="email" placeholder="Your Email ID here"/>
+                <button style="margin-top:5 px;" class="button1">Subscribe</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row copyright">
+        <div class="footer-menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Blog</a>
+            <a href="#">Social</a>
+        </div>
+        <p>Copyright © 2020</p>
+    </div>
+  </footer>
+
+
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+     
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
+    
+
+</body>
+</html>
