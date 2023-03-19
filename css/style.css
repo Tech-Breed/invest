@@ -3,6 +3,7 @@
     height: 100%;
     margin: 0%;
     align-items: flex-end;
+   margin-top: -5PX;
     
 }
 
@@ -10,7 +11,7 @@
 /* background image  */
 .bg{
     background-image: url("../images/in.jpg");
-    height: 90%;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
